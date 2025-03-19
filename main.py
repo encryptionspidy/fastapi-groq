@@ -5,7 +5,7 @@ import os
 app = FastAPI()
 
 # Groq API Key (from Render environment variable)
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = os.getenv("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")
 API_URL = "https://api.groq.com/v1/chat/completions"
 
 @app.get("/")
